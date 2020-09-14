@@ -3,6 +3,8 @@ seu无锡网安自研校园网认证客户端
 seu无锡20级网安出品
 
 **windows和安卓平台直接到release页面下载**
+https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1
+
 
 **mac平台请根据python版本下载code页面的脚本文件**
 
