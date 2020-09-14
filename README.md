@@ -10,7 +10,9 @@ https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1
   
 没有pip的先安装pip，再导入requests库  
 `pip install requests`    
-自带python2.7，请下载mac2.py, 运行   
+  
+自带python2.7，请下载**mac2.py**, 运行   
 `python mac2.py`  
-python3.x请下载mac3.py, 运行  
+  
+python3.x请下载**mac3.py**, 运行  
 `python3 mac3.py`  
