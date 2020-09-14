@@ -16,7 +16,6 @@ def get_host_ip():
 
 
 my_ip = get_host_ip()
-my_mac = get_mac_address(my_ip)
 
 # header
 headers = {
@@ -45,8 +44,7 @@ f.close()
 
 # get url
 url = u'http://10.9.10.100:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2C' + \
-      user + u'&user_password=' + password + u'&wlan_user_ip=' + my_ip + u'&wlan_user_ipv6=&wlan_user_mac=000000000000' + \
-    + u'&wlan_ac_ip=&wlan_ac_name=&jsVersion=3.3.2&v=2481'
+      user + u'&user_password=' + password + u'&wlan_user_ip=' + my_ip + u'&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=3.3.2&v=2481'
 
 response = requests.get(url, headers=headers)
 if response.status_code == 200 :
