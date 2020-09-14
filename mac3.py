@@ -42,8 +42,7 @@ f.close()
 
 # get url
 url = 'http://10.9.10.100:801/eportal/?c=Portal&a=login&callback=dr1003&login_method=1&user_account=%2C0%2C' + \
-      user + '&user_password=' + password + '&wlan_user_ip=' + my_ip + '&wlan_user_ipv6=&wlan_user_mac=000000000000' + \
-    + '&wlan_ac_ip=&wlan_ac_name=&jsVersion=3.3.2&v=2481'
+      user + '&user_password=' + password + '&wlan_user_ip=' + my_ip + '&wlan_user_ipv6=&wlan_user_mac=000000000000&wlan_ac_ip=&wlan_ac_name=&jsVersion=3.3.2&v=2481'
 
 response = requests.get(url, headers=headers)
 if response.status_code == 200 :
