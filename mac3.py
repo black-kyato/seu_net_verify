@@ -32,8 +32,8 @@ if os.path.exists('.config') and os.path.getsize('.config'):
     password = f.readline()
 else:
     f = open(".config", 'w')
-    user = input("input username(like 22020****):\n")
-    password = input("input password:\n")
+    user = raw_input("input username(like 22020****):\n")
+    password = raw_input("input password:\n")
     f.write(user)
     f.write('\n')
     f.write(password)
