@@ -14,7 +14,6 @@ def get_host_ip():
 
 
 my_ip = get_host_ip()
-my_mac = get_mac_address(my_ip)
 
 # header
 headers = {
@@ -27,7 +26,7 @@ headers = {
 
 # get user info
 if os.path.exists('.config') and os.path.getsize('.config'):
-    print("please wait......")
+    print(u"please wait......")
     f = open(".config", 'r')
     user = f.readline()
     password = f.readline()
@@ -50,11 +49,11 @@ response = requests.get(url, headers=headers)
 if response.status_code == 200 :
     a = response.text[-3:-2]
     if a == '"':
-        print("congratulate!login successfully ^_^")
+        print(u"congratulate!login successfully ^_^")
     elif a == '2':
-        print("Already online!QAQ")
+        print(u"Already online!QAQ")
     else:
-        print("password error~")
+        print(u"password error~")
         f = open(".config", 'w')
         f.close()
 
