@@ -76,4 +76,6 @@ if response.status_code == 200 :
         print("已经在线QAQ")
     else:
         print("密码错误~")
+        f = open("登录配置勿删", 'w')
+        f.close()
 
