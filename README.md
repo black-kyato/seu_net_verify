@@ -61,10 +61,9 @@ chmod +x gnome-shell-portal-helper
 sudo mv gnome-shell-portal-helper /usr/libexec/gnome-shell-portal-helper
 
 # 创建配置文件
-echo '{"username": "请输入用户名", "password": "请输入密码"}' > .seu_wlan_config
-vi .seu_wlan_config
+echo '{"username": "请输入用户名", "password": "请输入密码"}' > ~/.seu_wlan_config
+vi ~/.seu_wlan_config
 
 # 部署相关文件
 sudo mv linux.py /usr/libexec/login.py
-sudo mv .seu_wlan_config /usr/libexec/.seu_wlan_config
 ```
