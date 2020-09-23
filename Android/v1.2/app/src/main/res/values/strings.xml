@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SEU-WLAN</string>
+    <string name="title">SEU校园网无感认证服务</string>
+    <string name="connected_to">连接到 %s %s</string>
+    <string name="unconntected">未连接</string>
+    <string name="unverify">未认证</string>
+    <string name="current_user">当前用户: %s</string>
+    <string name="close">停止</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="save">保存</string>
+    <string name="login">认证</string>
+    <string name="enable">启用无感认证服务</string>
+    <string name="disable">禁用无感认证服务</string>
+    <string name="start">开启无感认证服务</string>
+    <string name="stop">关闭无感认证服务</string>
+
+    <string name="save_successful">保存成功</string>
+</resources>

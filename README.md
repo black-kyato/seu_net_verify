@@ -2,10 +2,42 @@
 seu无锡网安自研校园网认证客户端  
 seu无锡20级网安出品  
   
-## Windows & Android
+## Windows
 
-**windows和安卓平台直接到release页面下载**  
+**windows直接到release页面下载**  
 https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1  
+
+## Android
+
+测试于以下设备：
+
+- Nexus 5 原生 Android 6.0.1
+
+- 华为麦芒 5 EMUI 5.0.4 Android 7.0
+
+- 华为 Nova 7 EMUI 10.1.1 Androiod 10
+
+使用中遇到问题请在 issues 提出
+
+[点击下载](https://github.com/black-kyato/seu_net_verify/releases/tag/v1.2-Android)
+
+- 输入用户名密码后点击保存，再认证
+
+- 无感认证服务
+
+    - 启用：开机后自启动无感认证服务，部分系统需手动授予自启动权限
+    
+    - 禁用：关闭自启动
+    
+    - 开启：手动开启无感认证服务
+    
+    - 关闭：手动关闭无感认证服务
+    
+- 自启动权限配置（仅供参考）
+
+    - 华为 EMUI 5.0.4：设置 -> 应用管理 -> SEU-WLAN -> 权限 -> 设置单项权限 -> 应用自动启动 （打开）
+    
+    - 华为 EMUI 10.1.1：设置 -> 应用 -> 应用启动管理 （搜索 SEU-WLAN，关闭自动管理，开启手动管理中三项权限）
   
 ## MAC OS X  
 
