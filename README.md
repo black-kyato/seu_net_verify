@@ -5,7 +5,7 @@ seu无锡20级网安出品
 ## Windows
 
 **windows直接到release页面下载**  
-https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1  
+https://github.com/black-kyato/seu_net_verify/releases
 
 ## Android
 
@@ -19,7 +19,7 @@ https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1
 
 使用中遇到问题请在 issues 提出
 
-[点击下载](https://github.com/black-kyato/seu_net_verify/releases/tag/v1.2-Android)
+[点击下载](https://github.com/black-kyato/seu_net_verify/releases/tag/Android-v1.2)
 
 - 输入用户名密码后点击保存，再认证
 
