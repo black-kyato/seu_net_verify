@@ -19,7 +19,7 @@ https://github.com/black-kyato/seu_net_verify/releases
 
 使用中遇到问题请在 issues 提出
 
-[点击下载](https://github.com/black-kyato/seu_net_verify/releases/tag/Android-v1.2)
+[点击下载](https://github.com/black-kyato/seu_net_verify/releases/download/v1.2/Android-v1.2.apk)
 
 - 输入用户名密码后点击保存，再认证
 
