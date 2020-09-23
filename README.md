@@ -1,7 +1,7 @@
 # seu_net_verify
 seu无锡网安自研校园网认证客户端  
 seu无锡20级网安出品  
-  
+
 ## Windows
 
 **windows直接到release页面下载**  
@@ -38,17 +38,17 @@ https://github.com/black-kyato/seu_net_verify/releases/tag/v1.1
     - 华为 EMUI 5.0.4：设置 -> 应用管理 -> SEU-WLAN -> 权限 -> 设置单项权限 -> 应用自动启动 （打开）
     
     - 华为 EMUI 10.1.1：设置 -> 应用 -> 应用启动管理 （搜索 SEU-WLAN，关闭自动管理，开启手动管理中三项权限）
-  
+
 ## MAC OS X  
 
 **mac平台请根据python版本下载code页面的脚本文件**  
-  
+
 没有pip的先安装pip，再导入requests库  
 `pip install requests`    
-  
+
 自带python2.7，请下载**mac2.py**, 运行   
 `python mac2.py`  
-  
+
 python3.x请下载**mac3.py**, 运行  
 `python3 mac3.py`  
 
