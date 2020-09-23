@@ -7,7 +7,10 @@ import os
 # 通过udp数据包获取本机的外网ip
 def get_host_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    s.connect(('8.8.8.8', 80))
+    try:
+        s.connect(('8.8.8.8', 80))
+    except BaseException:
+        pass
     ip = s.getsockname()[0]
     s.close()
     return ip
