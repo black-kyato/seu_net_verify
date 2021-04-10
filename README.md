@@ -1,6 +1,6 @@
 # seu_net_verify
 seu无锡网安自研校园网认证客户端  
-seu无锡20级网安出品  
+seu无锡20级网安1支部出品  
 
 ## Windows
 
